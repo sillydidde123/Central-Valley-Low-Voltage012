@@ -1,13 +1,37 @@
-Body{
-background-color: white;
+html{
+background-color: red;
+height: 100%;
+}
+
+body {
+    background-color: white;
+    height: 90%;
 }
 
 h1{
     text-align: center;
 }
 
+img {
+    display: block;
+    margin: auto;
+}
+#wrapper{
+background-color: lightgreen;
+display: flex;
+flex-direction: column;
+height: 100vh;
+}
 
-img{
-display: block;
-margin: auto;
+header{background-color: orange;
+padding: 1rem;
+}
+
+main{background-color: lime;
+padding: 1rem;
+flex: 1;}
+
+footer{
+    background-color: steelblue;
+    padding: 1rem;
 }
